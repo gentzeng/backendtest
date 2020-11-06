@@ -10,5 +10,4 @@ public interface DataAccess {
 	
 	@Autowired
 	public Optional<ProductPrice> getProductPriceById(String id);
-
 }

@@ -19,5 +19,9 @@ public class FakeDataBaseDataAccess implements DataAccess{
 			.filter(productPrice -> productPrice.getId().equals(id) )
 			.findFirst();
 	}
+	
+	public void getProductPricesFromJson() {
+		
+	}
 
 }
